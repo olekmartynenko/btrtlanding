@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>title</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="header.scss" />
+</head>
+
+<body>
+  <header className="header">
+        <div className="wrapContent wrapContentJustify">
+          <div className="boxLogo">
+            <a href="#">
+              <img src="i/logo.svg" alt="" />
+            </a>
+            <div className="boxLang">
+              En <span className="arrowDown" />
+            </div>
+            <img
+              className="menuIcon"
+              src="i/logo.svg"
+              alt=""
+            />
+          </div>
+          <ul className={menuOpen}>
+            <li className="list_item">
+              <a href="#" className="list_link list_link_active">
+                Start as <span className="arrowDown" />
+              </a>
+            </li>
+            <li className="list_item">
+              <a href="#" className="list_link">
+                Courses <span className="arrowDown" />
+              </a>
+              <ul className="listUnder">
+                <li>Introduction into IT</li>
+                <li>
+                  Development
+                  <ul className="listUnderLinks">
+                    <li>
+                      <a href="#">Fron</a>
+                    </li>
+                    <li>
+                      <a href="#">Back</a>
+                    </li>
+                    <li>
+                      <a href="#">Sverstka</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>Design</li>
+                <li>Soft skills</li>
+              </ul>
+            </li>
+            <li className="list_item">
+              <a href="#" className="list_link">
+                Locations <span className="arrowDown" />
+              </a>
+            </li>
+            <li className="list_item">
+              <a href="#" className="list_link">
+                Blog
+              </a>
+            </li>
+            <li className="list_item">
+              <a href="#" className="list_link">
+                Why BA? <span className="arrowDown" />
+              </a>
+            </li>
+          </ul>
+          <div className="btn_header_wrap">
+            <Btn text="Sign in" style="empty" />
+          </div>
+        </div>
+      </header>
+  </div>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

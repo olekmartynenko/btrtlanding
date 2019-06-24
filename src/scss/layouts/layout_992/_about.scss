@@ -1,0 +1,47 @@
+.about-content__title {
+    @include e(img) {
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: -140px
+    }
+}
+
+.about-content__h2 {
+    padding: 40px 150px;
+}
+
+.about-content__text {
+    padding: 0 150px;
+}
+
+.about_download__title {
+    margin-left: 35px;
+    flex-direction: row;
+}
+
+.about_download__img {
+    margin-right: 65px;
+}
+
+.download-form {
+    flex-direction: row;
+    margin-left: 165px;
+    margin-bottom: 108px;
+    justify-content: flex-start;
+
+    .btn {
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background: #FF6D54;
+        color: #fff;
+    }
+
+    .email {
+        margin-right: 30px;
+        width: 310px;
+        margin-bottom: 0;
+    }
+}
