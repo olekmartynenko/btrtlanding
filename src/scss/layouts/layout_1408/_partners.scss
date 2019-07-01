@@ -1,9 +1,0 @@
-.partners {
-    @include e(title) {
-        padding: 0 530px;
-    }
-
-    @include e(comp) {
-        grid-template-columns: 285px 235px 285px 116px 285px;
-    }
-}
