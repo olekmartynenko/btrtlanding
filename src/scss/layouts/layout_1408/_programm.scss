@@ -1,0 +1,38 @@
+.programm {
+
+    @include e(grid) {
+        grid-template-columns: 270px 270px;
+        grid-column-gap: 201px;
+        grid-row-gap: 38px;
+
+
+    }
+
+    @include e(desc) {}
+
+    @include e(num) {
+        @include m(three) {
+            margin-bottom: 43px;
+
+        }
+
+        @include m(four) {
+            margin-bottom: 43px;
+        }
+
+        &::after {
+
+            width: 267px;
+
+        }
+    }
+
+    @include e(img) {
+        top: -180px;
+
+
+        img {
+            max-width: 100%;
+        }
+    }
+}

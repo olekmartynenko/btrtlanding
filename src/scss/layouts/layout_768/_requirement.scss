@@ -1,0 +1,7 @@
+.requirement {
+
+    @include e(box) {
+        text-align: left;
+        padding: 10px 30px;
+    }
+}

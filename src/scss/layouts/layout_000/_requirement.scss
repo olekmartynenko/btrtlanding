@@ -1,0 +1,21 @@
+.requirement {
+    margin-bottom: 50px;
+
+    @include e(title) {
+        text-align: center;
+    }
+
+    @include e(box) {
+        background: #E5FAF2;
+        text-align: justify;
+        padding: 15px;
+    }
+
+    @include e(or) {
+        color: #5A558D;
+    }
+
+    @include e(img) {
+        display: none;
+    }
+}

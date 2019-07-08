@@ -1,0 +1,21 @@
+.process {
+
+
+    @include e(box) {
+        max-width: 745px;
+
+    }
+
+    @include e(item) {
+
+        @include m(call) {
+
+            &::before {
+
+                width: 600px;
+
+            }
+
+        }
+    }
+}

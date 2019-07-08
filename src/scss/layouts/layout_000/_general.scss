@@ -1,0 +1,68 @@
+html {
+    font-size: $baseFontSize;
+}
+
+body {
+    font-family: $baseFontFamily;
+
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.h1_entrprnr {
+    font-family: $headingFontFamily;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #5A558D;
+}
+
+.p_entrprnr {
+    font-size: 16px;
+    line-height: 24px;
+    color: #505052;
+}
+
+.h2_entrprnr {
+    font-family: $headingFontFamily;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #5a558d;
+}
+
+.h2_sm {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 55px;
+    color: #5A558D;
+}
+
+.h3_entrprnr {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    color: #5A558D;
+}
+
+.h4_entrprnr {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: #5A558D;
+}
+
+.auth_entrprnr {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A4640;
+}
+
+.btn_text {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ff6d54;
+}

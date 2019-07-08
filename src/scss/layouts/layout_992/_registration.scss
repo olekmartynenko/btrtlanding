@@ -1,0 +1,60 @@
+.registration {
+
+    padding: 10px 57px;
+
+    @include e(box) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    @include e(title) {
+        margin-top: 27px;
+        text-align: left;
+    }
+
+    @include e(form) {
+
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+
+    @include e(one) {
+
+        margin-bottom: 47px;
+
+    }
+
+    @include e(two) {
+        margin-left: 0;
+        margin-bottom: 47px;
+    }
+
+    @include e(img) {
+        display: block;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    @include e(checkbox) {
+
+        margin-bottom: 47px;
+    }
+
+    @include e(btn) {
+
+        align-self: inherit;
+        transition: background .3s ease;
+        cursor: pointer;
+
+        &:hover {
+            background: #FF6D54;
+            color: #fff;
+        }
+    }
+}

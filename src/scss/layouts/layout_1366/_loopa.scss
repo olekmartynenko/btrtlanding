@@ -1,0 +1,6 @@
+.loopa {
+
+    @include e(text) {
+        min-height: 322px;
+    }
+}

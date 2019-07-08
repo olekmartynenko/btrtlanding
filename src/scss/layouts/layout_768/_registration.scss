@@ -1,0 +1,48 @@
+.registration {
+    margin-bottom: 61px;
+
+    @include e(form) {
+        flex-direction: column;
+
+    }
+
+
+    @include e(one) {
+        flex-direction: row;
+        align-items: center;
+
+        >input {
+            margin-right: 50px;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+
+    @include e(two) {
+
+        flex-direction: row;
+        align-items: center;
+        margin-left: 49px;
+
+
+        >input {
+            margin-right: 50px;
+        }
+
+        select {
+            padding-bottom: 3px;
+        }
+    }
+
+    @include e(arrow) {
+        background: url(#{$imagesPath}arrowDown.svg) no-repeat;
+        display: block;
+        width: 8px;
+        height: 8px;
+        margin-left: -8px;
+        margin-right: 40px;
+        padding-bottom: 25px;
+    }
+}

@@ -1,0 +1,41 @@
+.basis {
+  padding: 0 60px;
+  padding-right: 0;
+
+  @include e(content) {
+    margin: 65px 0 0 271px;
+  }
+
+  @include e(h1) {
+    margin-bottom: 33px;
+    margin-top: 50px;
+  }
+
+  @include e(text) {
+    padding: 0px 8px 0 8px;
+
+  }
+
+  @include e(info) {
+    padding-left: 7px;
+  }
+
+  @include e(el) {
+    margin-right: 73px;
+
+    &:nth-child(2) {
+      margin-right: 95px;
+    }
+  }
+
+
+
+  @include e(select) {
+    margin-left: 12px;
+    padding-right: 153px;
+  }
+
+  @include e(arrow) {
+    margin-right: 63px;
+  }
+}

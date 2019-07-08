@@ -1,0 +1,61 @@
+.themes {
+    padding-top: 34px;
+    display: grid;
+    margin-bottom: 150px;
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 150px;
+    grid-row-gap: 50px;
+    justify-content: center;
+    text-align: left;
+    background-position: right 200px top 650px,
+        left 250px top 150px,
+        right 250px top 10px;
+
+    @include e(title) {
+
+        text-align: left;
+    }
+
+    @include e(item) {
+        @include m(bg1) {
+
+
+            &::after {
+
+                width: 491.58px;
+                height: 491.58px;
+                top: 49px;
+                left: 48px;
+            }
+        }
+
+        @include m(bg2) {
+
+
+            &::after {
+                content: '';
+
+                width: 159.53px;
+                height: 159.53px;
+                border-radius: 100%;
+
+                top: -19px;
+                left: 49px;
+            }
+        }
+
+        @include m(bg3) {
+
+
+            &::after {
+
+                width: 320.74px;
+                height: 320.75px;
+                border: 90px solid #F9F5EC;
+                left: 20px;
+                bottom: -16px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,234 @@
+.footer {
+    background: #4d5451;
+    z-index: 1;
+    position: relative;
+
+    &_wrap {
+        padding: 54px 0 94px 46px;
+    }
+
+    &_list {
+        margin: 50px 0 69px 13px;
+    }
+
+    &_item {
+        display: inline-block;
+        margin: 0 30px 0 0;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    &_link {
+        font-size: 18px;
+        line-height: 21px;
+        color: #ffffff;
+    }
+
+    &_lists {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0 0 18px;
+        max-width: 405px;
+    }
+
+    &_sideLink {
+        font-size: 14px;
+        line-height: 21px;
+        color: #677c74;
+        display: block;
+    }
+
+    &_title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 34px;
+        color: #ffffff;
+        margin: 0 0 27px 0;
+    }
+
+    &_field {
+        display: flex;
+        align-items: flex-end;
+
+        button {
+            width: 191px;
+            height: 50px;
+            color: #a2e6cb;
+            border: 2px solid #a2e6cb;
+            box-sizing: border-box;
+            border-radius: 30px;
+            font-size: 24px;
+
+            &:hover {
+                background-color: #a2e6cb;
+                color: #fff;
+            }
+        }
+
+        input[type='text']::-moz-placeholder {
+            color: #f6fffb;
+        }
+
+        input[type='text']::-webkit-input-placeholder {
+            color: #f6fffb;
+        }
+
+        input[type='text']:-ms-input-placeholder {
+            color: #f6fffb;
+        }
+
+        input[type='text']::-ms-input-placeholder {
+            color: #f6fffb;
+        }
+
+        input[type='text']::placeholder {
+            color: #f6fffb;
+        }
+    }
+
+    &_email {
+        font-size: 18px;
+        color: #f6fffb;
+        height: 34px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #cbffea;
+        font-family: 'Rubik', sans-serif;
+        padding: 0 0 0 3px;
+        width: 100%;
+        max-width: 336px;
+        margin: 0 29px 0 0;
+    }
+
+    &_subscribe {
+        margin: 50px 0 0 40px;
+    }
+
+    &_social {
+        display: flex;
+        align-items: center;
+        margin: 116px 0px 0 0;
+        justify-content: space-between;
+    }
+
+    &_socialIcon {
+        display: flex;
+
+        a {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #6d7772;
+            box-sizing: border-box;
+            border-radius: 3px;
+            margin: 0 13px 0 0;
+
+            &:hover {
+                background: #a2e6cb;
+
+                path {
+                    fill: #91d1b9;
+                }
+            }
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+
+        path {
+            fill: #6d7772;
+        }
+    }
+
+    &_copy {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+        margin: 0 46px 0 0;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .footer_wrap {
+        padding: 54px 0 94px 0px;
+    }
+
+    .footer_copy {
+        margin: 0;
+    }
+
+    .footer_subscribe {
+        margin: 50px 0 0 10px;
+    }
+
+    .footer_link {
+        font-size: 15px;
+    }
+
+    .footer_item {
+        margin: 0 24px 0 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .footer_wrap {
+        padding: 54px 0 34px 0px;
+    }
+
+    .footer_link {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer_item {
+        margin: 0 20px 0 0;
+    }
+
+    .footer_link {
+        line-height: 36px;
+    }
+
+    .footer_list {
+        margin: 50px 0 41px 13px;
+    }
+
+    .footer_lists {
+        padding: 0 0 0 11px;
+    }
+
+    .footer_field {
+        flex-wrap: wrap;
+    }
+
+    .footer_email {
+        margin: 0 29px 20px 0;
+    }
+
+    .footer_social {
+        flex-wrap: wrap;
+        margin: 76px 0px 0 0;
+    }
+
+    .footer_socialIcon {
+        margin: 0 0 10px;
+    }
+}
+
+ul>li>a {
+    &:hover {
+        color: #ffd561;
+    }
+}
+
+.wrapContent {
+    width: 100%;
+    padding: 0 30px;
+}

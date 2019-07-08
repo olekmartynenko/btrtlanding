@@ -1,0 +1,42 @@
+.local {
+    justify-content: flex-start;
+    margin-left: 333px;
+    padding: 0 160px;
+    margin-bottom: 97px;
+
+
+
+    @include e(photo) {
+        margin-right: 10px;
+
+        &::after {
+            width: 286px;
+            height: 286px;
+            border: 90px solid #F9F5EC;
+            left: -159px;
+            bottom: 65px;
+        }
+    }
+
+    @include e(contact) {
+        padding-top: 143px;
+    }
+
+    @include e(name) {
+        margin-bottom: -5px;
+    }
+
+    @include e(position) {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    @include e(cont) {
+        margin-top: 19px;
+    }
+
+    @include e(icon) {
+        left: -84px;
+        bottom: 45px;
+    }
+}

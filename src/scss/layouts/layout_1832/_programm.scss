@@ -1,0 +1,11 @@
+.programm {
+
+    @include e(grid) {
+
+        margin-left: 290px;
+    }
+
+    @include e(img) {
+        top: -204px;
+    }
+}

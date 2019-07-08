@@ -1,0 +1,58 @@
+   .partners {
+       @include e(company) {
+           padding: 0 10px;
+       }
+
+       @include e(company) {
+           grid-template-columns: 285px 60px 285px;
+           grid-template-rows: 1fr 1fr;
+           margin-bottom: 104px;
+           text-align: left;
+
+       }
+
+
+       @include e(co-text) {
+           margin: 0;
+
+
+           @include m(chalm) {
+               grid-column: 1;
+               grid-row: 2;
+           }
+
+           @include m(avp) {
+               grid-column: 3;
+               grid-row: 2;
+           }
+
+           @include m(driv) {
+               grid-column: 2;
+               grid-row: 4;
+               width: 285px;
+               justify-self: center;
+           }
+       }
+
+       @include e(img) {
+           margin-bottom: 0;
+
+           @include m(chalm) {
+               grid-column: 1;
+               grid-row: 1;
+           }
+
+           @include m(avp) {
+               grid-column: 3;
+               grid-row: 1;
+           }
+
+           @include m(driv) {
+               width: 285px;
+               grid-column: 2;
+               grid-row: 3;
+               justify-self: center;
+           }
+       }
+
+   }

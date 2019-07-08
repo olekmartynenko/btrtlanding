@@ -1,0 +1,41 @@
+.process {
+    text-align: center;
+    margin-bottom: 50px;
+
+
+    @include e(box) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    @include e(item) {
+        font-weight: $mediumFontWeight;
+        font-size: 18px;
+        line-height: 22px;
+        color: #5A558D;
+        min-width: 122px;
+        text-align: center;
+
+        @include m(call) {
+            position: relative;
+
+            &::before {
+                content: '';
+                z-index: -1;
+                position: absolute;
+                height: 1px;
+                width: 380px;
+                background: #EDEEE2;
+                top: 41.5px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+        }
+
+        img {
+            width: 83px;
+
+        }
+    }
+}

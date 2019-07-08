@@ -1,0 +1,28 @@
+.author {
+    padding: 0 97px;
+    justify-content: flex-start;
+    margin-bottom: 145px;
+
+    @include e(name) {
+        margin-top: 38px;
+
+        margin-bottom: 0;
+    }
+
+    @include e(role) {
+        margin-top: 0;
+        padding: 0 0 22px;
+
+    }
+
+    @include e(anton) {
+        margin-right: 190px;
+        margin-left: 240px;
+    }
+
+    @include e(text) {
+        max-width: 530px;
+
+
+    }
+}

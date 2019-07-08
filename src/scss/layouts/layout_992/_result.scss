@@ -1,0 +1,35 @@
+.result {
+    margin-bottom: 60px;
+    display: flex;
+
+    @include e(block) {
+        background: #FFEFED;
+        position: relative;
+        padding: 10px 0;
+        margin-bottom: 100px;
+    }
+
+    @include e(content) {
+        margin-left: 380px;
+    }
+
+    @include e(title) {
+        text-align: left;
+        padding: 20px 20px 0 20px;
+    }
+
+    @include e(text) {
+        padding-right: 10px;
+    }
+
+    @include e(img) {
+        position: absolute;
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+
+        img {
+            max-width: 400px;
+        }
+    }
+}

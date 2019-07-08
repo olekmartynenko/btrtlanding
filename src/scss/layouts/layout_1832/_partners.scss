@@ -1,0 +1,14 @@
+.partners {
+  margin-bottom: 104px;
+
+  @include e(title) {
+    margin-bottom: 77px;
+  }
+
+  @include e(company) {
+    grid-template-columns: 285px 235px 285px 144px 285px;
+    justify-content: flex-start;
+    padding-left: 336px;
+
+  }
+}

@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>title</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap-flex.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapContent wrapContentJustify">
+      <div class="boxLogo">
+        <a href="#">
+          <img src="i/logo.svg" alt="" />
+        </a>
+        <div class="boxLang">
+          En <span class="arrowDown" />
+        </div>
+      </div>
+  </header>
+  <div class="container-wrapper">
+    <div class="basis">
+      <div class="basis__content">
+        <h1 class="basis__h1 h1_entrprnr">Basics of <br> Entrepreneurship</h1>
+        <p class="basis__text p_entrprnr">Aliquam at ullamcorper nisi. Praesent et ante feugiat odio sodales ornare. Nam
+          aliquet est id quam dictum, quis ullamcorper nibh hendrerit.</p>
+        <div class="basis__info">
+          <span class="basis__el">старт курса 15 июля</span>
+          <span class="basis__el">2 мес.</span>
+          <span class="basis__el">3000 UAH</span>
+        </div>
+        <div class="basis__reg">
+          <select class="basis__select" form="reg-form" name="" id="">
+            <option value="Ivano-Frankivsk">Ivano-Frankivsk</option>
+            <option value="Chernihiv">Chernihiv</option>
+            <option value="Kharkiv">Kharkiv</option>
+            <option value="Kramatorsk">Kramatorsk</option>
+            <option value="Kyiv">Kyiv</option>
+            <option value="Mykolaiv">Mykolaiv</option>
+            <option value="Poltava">Poltava</option>
+            <option value="Rivne">Rivne</option>
+            <option value="Zaporizhia">Zaporizhia</option>
+            <option value="Kherson">Kherson</option>
+            <option value="Kremenchuk">Kremenchuk</option>
+            <option value="Mariupol">Mariupol</option>
+            <option value="Odesa">Odesa</option>
+            <option value="Ternopil">Ternopil</option>
+            <option value="Vinnytsia">Vinnytsia</option>
+          </select>
+          <span class="basis__arrow"></span>
+          <a href="#reg" class="basis__btn btn_text">Регистрация</a>
+        </div>
+      </div>
+      <div class="basis__img"><img src="i/enterpreneur.png" alt=""></div>
+    </div>
+    <div class="about">
+      <div class="about__content">
+        <div class="about__title">
+          <div class="about__img"><img src="i/dots.svg" alt=""></div>
+          <h2 class="about__h2 h2_entrprnr">О курсе</h2>
+        </div>
+
+        <div class="about__text p_entrprnr">
+          <p>Наш курс научит тебя основам построения бизнеса с нуля в современных условиях <br>
+            Мы используем наработки Шведской Школы Предпринимательства Технического университета Чалмерса, скандинавской
+            организации, развивающей предпринимательство, Дривхюсет, Финского университета Аалто. Наша методология уже
+            успешно показала себя в ряде стран Скандинавии и впервые преподается в Украине.
+          </p>
+          <p>Благодаря нашим шведским партнерам, студенты курса получат в качестве подарка книгу о методологии развитии
+            бизнеса.</p>
+          <p> Пройдя этот курс, ты получишь не только необходимый набор универсальных инструментов, но и опыт запуска
+            своего дела. Ты будешь работать под руководством преподавателя, самостоятельно и в команде. Наш курс
+            направлен
+            на то, чтобы помочь тебе развивать собственный бизнес в полевых условиях прямо во время прохождения курса.
+            Весь наш подход заключается в том, чтобы помочь тебе запустить бизнес, не привлекая дополнительные ресурсы
+            или
+            внешнее финансирование.</p>
+        </div>
+      </div>
+      <div class="about__download">
+        <div class="about__dl-title">
+          <div class="about__dl-img"><svg width="28" height="20" viewBox="0 0 28 20" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24.2817 0.194336H3.9658C2.28283 0.194336 0.900391 1.51667 0.900391 3.19964V16.423C0.900391 18.106 2.28283 19.4283 3.9658 19.4283H24.2817C25.9647 19.4283 27.3471 18.106 27.3471 16.423V3.19964C27.3471 1.51667 25.9647 0.194336 24.2817 0.194336ZM17.4296 8.84962L25.9045 2.29805C26.0248 2.59858 26.145 2.89911 26.145 3.19964V16.423C26.145 16.7235 26.0849 16.9639 25.9647 17.2044L17.4296 8.84962ZM24.2817 1.39646C24.5221 1.39646 24.7625 1.45657 24.9428 1.51667L14.4243 9.631L3.30464 1.51667C3.48495 1.45657 3.72538 1.39646 3.9658 1.39646H24.2817ZM2.34294 17.2044C2.22273 16.9639 2.10251 16.7235 2.10251 16.423V3.19964C2.10251 2.89911 2.22273 2.59858 2.34294 2.35816L10.9982 8.72941L2.34294 17.2044ZM3.9658 18.2262C3.66527 18.2262 3.42485 18.1661 3.18442 18.0459L12.02 9.39058L14.4243 11.1337L16.4078 9.57089L25.003 17.9858C24.7625 18.106 24.5221 18.1661 24.2216 18.1661H3.9658V18.2262Z"
+                fill="#FF6D54" />
+            </svg>
+
+          </div>
+          <p class="about__h3">Download full course presentation</p>
+        </div>
+        <form class="about__form" action="">
+          <form-group><input class="about__email" type="email" placeholder="E-mail"></form-group>
+          <form-group><button class="about__btn btn_text">Get the presentation</button></form-group>
+        </form>
+      </div>
+    </div>
+    <div class="partners">
+      <div class="partners__title">
+        <h2 class="partners__h2 h2_entrprnr">Партнеры</h2>
+        <p class="partners__text p_entrprnr">Aliquam at ullamcorper nisi. Praesent et ante feugiat odio sodales ornare.
+          Nam
+          aliquet est id quam dictum, quis ullamcorper nibh hendrerit. Donec at mattis mi, sit amet eleifend nulla.</p>
+      </div>
+      <div class="partners__company">
+
+        <a class="partners__img partners__img_chalm" href="#"><img src="i/chalmers_partn.png" alt=""></a>
+        <p class="partners__co-text partners__co-text_chalm">Chalmers School of Entrepreneurship unites education and
+          research
+          through
+          entrepreneurship
+          so we can generate value for society by developing novel and innovative ideas.</p>
+
+
+        <a class="partners__img partners__img_avp" href="#"><img src="i/avp_partn.png" alt=""></a>
+        <p class="partners__co-text partners__co-text_avp">We provide Aalto students with the inspiration, capability
+          and
+          network necessary to
+          build new
+          scalable businesses.</p>
+
+
+        <a class="partners__img partners__img_driv" href="#"><img src="i/driv_partn.png" alt=""></a>
+        <p class="partners__co-text partners__co-text_driv">At Drivhuset we help you to develop and test your idea. We
+          offer
+          Loopa - Drivhuset’s
+          method
+          for business development which can be applied on both commercial and non-profit ideas. Let us kick start your
+          start up.</p>
+      </div>
+    </div>
+
+    <div class="loopa">
+      <div class="loopa__content">
+        <div class="loopa__img"> <img src="i/loopa.png" alt=""></div>
+        <h3 class="loopa__h3 h3_entrprnr">Run Business Development <br>
+          for Entrepreneurs</h3>
+        <p class="loopa__auth auth_entrprnr">Author
+          Mariah ben Salem Dynehäll, <br>
+          Anna Lärk Ståhlberg</p>
+        <p class="loopa__text p_entrprnr">LOOPA is based on a method developed by Drivhuset in collaboration with
+          Chalmers
+          entrepreneur
+          school. The greenhouse works college-based schools all over the country, and helps entrepreneurs start and run
+          companies or in other ways realize their ideas. By offering guidance, education and a creative environment,
+          Drivhuset
+          achieves concrete results in the form of over 1,000 new companies in Sweden every year.</p>
+      </div>
+    </div>
+    <div class="edu-game">
+      <div class="edu-game__content">
+        <div class="edu-game__img"> <img src="i/edu_game.png" alt=""></div>
+        <h3 class="edu-game__h3 h3_entrprnr">Entrepreneurial Education <br>
+          Game</h3>
+        <p class="edu-game__auth auth_entrprnr">A gamified way of learning the process of <br> creating a new business
+        </p>
+        <p class="edu-game__text p_entrprnr">Unlike most games, you do not compete against your friends. Instead, you
+          work
+          as a team to iteratively develop your idea into a product that puts a smile on the consumers’ faces. You must
+          come up with all the necessary steps to bring your idea into reality, and will face tough real-world
+          challenges
+          that will test the solutions you thought were perfect. Your team must recognize the skills needed to hone your
+          product to perfection, and humbly acknowledge what you still lack.
+        </p>
+      </div>
+    </div>
+    <div class="author">
+      <div class="author__anton">
+        <div class="author__img"><img src="i/anton.png" alt=""></div>
+        <p class="author__name h3_entrprnr">Антон Шевченко</p>
+        <p class="author__role auth_entrprnr">Автор курса</p>
+        <p class="author__text p_entrprnr">Unlike most games, you do not compete against your friends. Instead, you work
+          as a team to iteratively develop your idea into a product that puts a smile on the consumers’ faces. You must
+          come up with all the necessary steps to bring your idea into reality, and will face tough real-world
+          challenges
+          that will test the solutions you thought were perfect.</p>
+      </div>
+      <div class="author__victor">
+        <div class="author__img"><img src="i/victor.png" alt=""></div>
+        <p class="author__name h3_entrprnr">Виктор Шевченко</p>
+        <p class="author__role auth_entrprnr">Учитель</p>
+        <p class="author__text p_entrprnr">Unlike most games, you do not compete against your friends. Instead, you work
+          as a team to iteratively develop your idea into a product that puts a smile on the consumers’ faces. You must
+          come up with all the necessary steps to bring your idea into reality, and will face tough real-world
+          challenges
+          that will test the solutions you thought were perfect.</p>
+      </div>
+    </div>
+    <div class="programm">
+      <div class="programm__grid">
+        <div class="programm__1">
+          <div class="programm__num programm__num_one">31</div>
+          <div class="programm__desc programm__desc_one p_entrprnr">Видео урок</div>
+        </div>
+        <div class="programm__2">
+          <div class="programm__num programm__num_two">13</div>
+          <div class="programm__desc programm__desc_two p_entrprnr">Занятий с преподавателем</div>
+        </div>
+        <div class="programm__3">
+          <div class="programm__num programm__num_three">2/2</div>
+          <div class="programm__desc programm__desc_three p_entrprnr">2 раза в неделю по 2 часа каждое</div>
+        </div>
+        <div class="programm__4">
+          <div class="programm__num programm__num_four">3</div>
+          <div class="programm__desc programm__desc_four p_entrprnr">занятия “в полях” над собственным проектом</div>
+        </div>
+      </div>
+      <div class="programm__img"><img src="i/enterpreneur2.png" alt=""></div>
+    </div>
+    <div class="themes">
+      <div class="themes__item  themes__item_bg1">
+        <p class="themes__title themes__title_idea h4_entrprnr">Идея</p>
+        <p class="themes__desc themes__desc_idea p_entrprnr">Как найти идею, если у вас ее нет? Какого рода идеи
+          подходят
+          для
+          бизнеса? Как
+          определить такую идею?</p>
+      </div>
+      <div class="themes__item themes__item_bg2">
+        <p class="themes__title themes__title_decision h4_entrprnr">Решение</p>
+        <p class="themes__desc theme__desc_decision p_entrprnr">Как создать что-то, что будет решать чью-то проблему?
+          Как
+          создать решение, которое
+          будут покупать?</p>
+      </div>
+      <div class="themes__item">
+        <p class="themes__title themes__title_market h4_entrprnr">Рынок</p>
+        <p class="themes__desc themes__desc_market p_entrprnr">Почему наличие конкурентов - это хорошо? Как можно
+          выделиться
+          на фоне конкурентов?
+        </p>
+      </div>
+      <div class="themes__item">
+        <p class="themes__title theme__title_fin h4_entrprnr">Продажи и Финансы</p>
+        <p class="themes__desc theme__desc_fin p_entrprnr">Как привлечь первых клиентов? Как рассчитать доходы и расходы
+          будущего бизнеса?
+        </p>
+      </div>
+      <div class="themes__item">
+        <p class="themes__title themes__title_prepar h4_entrprnr">Подготовка к запуску</p>
+        <p class="themes__desc themes__desc_prepar p_entrprnr">Что нужно знать перед запуском бизнеса?</p>
+      </div>
+      <div class="themes__item  themes__item_bg3">
+        <p class="themes__title theme__title_pitch h4_entrprnr">Питч</p>
+        <p class="themes__desc theme__desc_pitch p_entrprnr">Как эффективно презентовать свою идею?</p>
+      </div>
+    </div>
+    <div class="result">
+      <div class="result__block">
+        <div class="result__img"><img src="i/enterpreneur3.png" alt=""></div>
+        <div class="result__content">
+          <p class="result__title h3_entrprnr">По окончанию курса ты получишь</p>
+          <ul class="result__text p_entrprnr">
+            <li>Пошаговую методологию запуска любого бизнеса</li>
+            <li>Проработанную бизнес-модель собственного бизнеса</li>
+            <li>Понимание некоторых юридических, финансовых и других аспектов ведения бизнеса</li>
+            <li>Книгу по шведской методологии развития бизнеса</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bonus">
+      <div class="bonus__content">
+        <div class="bonus__img"> <img src="i/edu.png" alt=""></div>
+        <h3 class="bonus__h3 h3_entrprnr">Для студентов, успешно окончивших курс, мы предоставляем бонус - доступ к
+          секретным урокам по следующим темам:</h3>
+        <ul class="bonus__text bonus__text_ul p_entrprnr">
+          <li>Основы диджитал маркетинга</li>
+          <li>Построение продаж</li>
+          <li>Создание команды и найм сотрудников.</li>
+        </ul>
+        <p class="bonus__text p_entrprnr">Каждая из тем предполагает видео-урок от специалиста по теме, а также
+          вебинар
+          с
+          возможностью получения консультаций от
+          специалистов по каждой из вышеуказанных тем.
+        </p>
+      </div>
+    </div>
+    <div class="process">
+      <h2 class="process__title h2_entrprnr">Процесс подачи</h2>
+      <div class="process__box">
+        <div class="process__item process__item_form"><img src="i/icon_mail.svg" alt="">
+          <p>Анкета</p>
+        </div>
+        <div class="process__item process__item_call"><img src="i/icon_phone.svg" alt="">
+          <p>Созвон</p>
+        </div>
+        <div class="process__item process__item_interview"><img src="i/icon_interview.svg" alt="">
+          <p>Интервью</p>
+        </div>
+      </div>
+    </div>
+    <div class="requirement">
+      <div class="requirement__box">
+        <div class="requirement__content">
+          <h3 class="requirement__title h3_entrprnr">Требования к студенту</h3>
+          <p class="requirement__text p_entrprnr">Опыт работы от 1 года опыта в бизнесе (либо как предприниматель,
+            либо
+            как
+            наемный сотрудник в следующих областях:
+            маркетинг, продажи, PR, бухгалтерия или любая другая должность менеджера)
+          </p>
+          <span class="requirement__or p_entrprnr">или</span>
+          <p class="requirement__text p_entrprnr">Опыт работы от 1 года опыта в IT на технической должности или
+            обладание
+            технической компетенцией вследствии окончания
+            специализированных курсов.
+          </p>
+        </div>
+        <div class="requirement__img"><img src="i/enterpreneur4.png" alt=""></div>
+      </div>
+    </div>
+    <div class="faq">
+      <h2 class="faq__title h2_sm">FAQ</h2>
+      <div class="faq__box">
+        <div class="faq__text">
+          <p>Ut sed rhoncus elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+            turpis
+            egestas?</p>
+          <div class="faq__btn">
+            <span class="line1"></span>
+            <span class="line2"></span>
+          </div>
+        </div>
+        <div class="faq__content">
+          Aliquam at ullamcorper nisi. Praesent et ante feugiat odio sodales ornare. Nam aliquet est id quam
+          dictum,
+          quis
+          ullamcorper nibh hendrerit. Donec at mattis mi, sit amet eleifend nulla. Mauris odio ante, finibus ac
+          ultricies sit
+          amet, rhoncus ut libero. Phasellus suscipit felis cursus elit tincidunt tristique.
+        </div>
+        <div class="faq__text">
+          <p>Ut sed rhoncus elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+            turpis
+            egestas?</p>
+          <div class="faq__btn">
+            <span class="line1"></span>
+            <span class="line2"></span>
+          </div>
+        </div>
+        <div class="faq__content">
+          Aliquam at ullamcorper nisi. Praesent et ante feugiat odio sodales ornare. Nam aliquet est id quam
+          dictum,
+          quis
+          ullamcorper nibh hendrerit. Donec at mattis mi, sit amet eleifend nulla. Mauris odio ante, finibus ac
+          ultricies sit
+          amet, rhoncus ut libero. Phasellus suscipit felis cursus elit tincidunt tristique.
+        </div>
+        <div class="faq__text">
+          <p>Ut sed rhoncus elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+            turpis
+            egestas?</p>
+          <div class="faq__btn">
+            <span class="line1"></span>
+            <span class="line2"></span>
+          </div>
+        </div>
+        <div class="faq__content">
+          Aliquam at ullamcorper nisi. Praesent et ante feugiat odio sodales ornare. Nam aliquet est id quam
+          dictum,
+          quis
+          ullamcorper nibh hendrerit. Donec at mattis mi, sit amet eleifend nulla. Mauris odio ante, finibus ac
+          ultricies sit
+          amet, rhoncus ut libero. Phasellus suscipit felis cursus elit tincidunt tristique.
+        </div>
+        <div class="faq__text">
+          <p>Ut sed rhoncus elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+            turpis
+            egestas?</p>
+          <div class="faq__btn">
+            <span class="line1"></span>
+            <span class="line2"></span>
+          </div>
+        </div>
+        <div class="faq__content">
+          Aliquam at ullamcorper nisi. Praesent et ante feugiat odio sodales ornare. Nam aliquet est id quam
+          dictum,
+          quis
+          ullamcorper nibh hendrerit. Donec at mattis mi, sit amet eleifend nulla. Mauris odio ante, finibus ac
+          ultricies sit
+          amet, rhoncus ut libero. Phasellus suscipit felis cursus elit tincidunt tristique.
+        </div>
+        <div class="faq__text">
+          <p>Ut sed rhoncus elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+            turpis
+            egestas?</p>
+          <div class="faq__btn">
+            <span class="line1"></span>
+            <span class="line2"></span>
+          </div>
+        </div>
+        <div class="faq__content">
+          Aliquam at ullamcorper nisi. Praesent et ante feugiat odio sodales ornare. Nam aliquet est id quam
+          dictum,
+          quis
+          ullamcorper nibh hendrerit. Donec at mattis mi, sit amet eleifend nulla. Mauris odio ante, finibus ac
+          ultricies sit
+          amet, rhoncus ut libero. Phasellus suscipit felis cursus elit tincidunt tristique.
+        </div>
+        <div class="faq__text">
+          <p>Ut sed rhoncus elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+            turpis
+            egestas?</p>
+          <div class="faq__btn">
+            <span class="line1"></span>
+            <span class="line2"></span>
+          </div>
+        </div>
+        <div class="faq__content">
+          Aliquam at ullamcorper nisi. Praesent et ante feugiat odio sodales ornare. Nam aliquet est id quam
+          dictum,
+          quis
+          ullamcorper nibh hendrerit. Donec at mattis mi, sit amet eleifend nulla. Mauris odio ante, finibus ac
+          ultricies sit
+          amet, rhoncus ut libero. Phasellus suscipit felis cursus elit tincidunt tristique.
+        </div>
+        <div class="faq__text">
+          <p>Ut sed rhoncus elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+            turpis
+            egestas?</p>
+          <div class="faq__btn">
+            <span class="line1"></span>
+            <span class="line2"></span>
+          </div>
+        </div>
+        <div class="faq__content">
+          Aliquam at ullamcorper nisi. Praesent et ante feugiat odio sodales ornare. Nam aliquet est id quam
+          dictum,
+          quis
+          ullamcorper nibh hendrerit. Donec at mattis mi, sit amet eleifend nulla. Mauris odio ante, finibus ac
+          ultricies sit
+          amet, rhoncus ut libero. Phasellus suscipit felis cursus elit tincidunt tristique.
+        </div>
+      </div>
+    </div>
+    <div class="registration" id="reg">
+      <h2 class="registration__title">Регистрация</h2>
+      <div class="registration__box">
+        <form id="reg-form" class="registration__form" action="" autocomplete="off">
+          <div class="registration__one">
+            <input type="text" placeholder="First and Last Name">
+            <input type="tel" placeholder="Phone">
+          </div>
+          <div class="registration__two">
+            <input type="email" placeholder="E-mail">
+            <select class="registration__select" form="reg-form" name="reg-select" id="reg-select">
+              <option value="Ivano-Frankivsk">Ivano-Frankivsk</option>
+              <option value="Chernihiv">Chernihiv</option>
+              <option value="Kharkiv">Kharkiv</option>
+              <option value="Kramatorsk">Kramatorsk</option>
+              <option value="Kyiv">Kyiv</option>
+              <option value="Mykolaiv">Mykolaiv</option>
+              <option value="Poltava">Poltava</option>
+              <option value="Rivne">Rivne</option>
+              <option value="Zaporizhia">Zaporizhia</option>
+              <option value="Kherson">Kherson</option>
+              <option value="Kremenchuk">Kremenchuk</option>
+              <option value="Mariupol">Mariupol</option>
+              <option value="Odesa">Odesa</option>
+              <option value="Ternopil">Ternopil</option>
+              <option value="Vinnytsia">Vinnytsia</option>
+            </select>
+            <span class="registration__arrow"></span>
+          </div>
+          <form-group class="registration__checkbox"><input class="registration__check" type="checkbox" id="news"
+              name="news">
+            <label for="news">Send me academy updates</label></form-group>
+          <button class="registration__btn btn_ text">Send</button>
+        </form>
+        <div class="registration__img"><img src="i/enterpreneur5.png" alt=""></div>
+      </div>
+    </div>
+    <div class="local">
+      <div class="local__photo">
+        <div class="local__img">
+          <img src="i/pers.svg" alt="">
+        </div>
+        <div class="local__icon">
+          <img src="i/pers.svg" alt="">
+        </div>
+      </div>
+      <div class="local__contact">
+        <p class="local__name h3_entrprnr">Yuliia Hrekh</p>
+        <p class="local__position  p_entrprnr">Local Manager</p>
+        <p class="local__cont  p_entrprnr">38 099 033 1708 <br>
+          yuliiahrekh@beetroot.academy</p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="wrapContent">
+        <div class="footer_wrap">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 footer_nav">
+              <a href="#">
+                <img src='i/logo_footer.svg' alt="" />
+              </a>
+              <ul class="footer_list">
+                <li class="footer_item">
+                  <a href="#" class="footer_link">
+                    Career in IT
+                  </a>
+                </li>
+                <li class="footer_item">
+                  <a href="#" class="footer_link">
+                    Start with BA
+                  </a>
+                </li>
+                <li class="footer_item">
+                  <a href="#" class="footer_link">
+                    Map
+                  </a>
+                </li>
+                <li class="footer_item">
+                  <a href="#" class="footer_link">
+                    Courses
+                  </a>
+                </li>
+                <li class="footer_item">
+                  <a href="#" class="footer_link">
+                    About us
+                  </a>
+                </li>
+              </ul>
+              <div class="footer_lists">
+                <ul class="footer_sideList">
+                  <li class="footer_sideItem">
+                    <a href="#" class="footer_sideLink">
+                      Newsroom
+                    </a>
+                  </li>
+                  <li class="footer_sideItem">
+                    <a href="#" class="footer_sideLink">
+                      In the news
+                    </a>
+                  </li>
+                  <li class="footer_sideItem">
+                    <a href="#" class="footer_sideLink">
+                      Contact info
+                    </a>
+                  </li>
+                  <li class="footer_sideItem">
+                    <a href="#" class="footer_sideLink">
+                      Press kit
+                    </a>
+                  </li>
+                </ul>
+                <ul class="footer_sideList">
+                  <li class="footer_sideItem">
+                    <a href="#" class="footer_sideLink">
+                      Vacancies
+                    </a>
+                  </li>
+                  <li class="footer_sideItem">
+                    <a href="#" class="footer_sideLink">
+                      Blog
+                    </a>
+                  </li>
+                  <li class="footer_sideItem">
+                    <a href="#" class="footer_sideLink">
+                      Contact us
+                    </a>
+                  </li>
+                  <li class="footer_sideItem">
+                    <a href="#" class="footer_sideLink">
+                      Career test
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="footer_subscribe">
+                <p class="footer_title">Subscribe for upcoming events</p>
+                <div class="footer_field">
+                  <input class="footer_email" type="text" placeholder="your e-mail" />
+                  <button class="empty">Subscribe</button>
+                </div>
+                <div class="footer_social">
+                  <div class="footer_socialIcon">
+                    <a href="#">
+                      <svg width="14" height="28" viewBox="0 0 14 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M12.529 14.0894H8.88904V27.7626H3.3836V14.0894H0.744629V9.28278H3.3836V6.15615C3.3836 3.96284 4.38459 0.462891 8.93454 0.462891H13.0295V5.1295H10.072C9.57154 5.1295 8.88904 5.36283 8.88904 6.43616V9.28278H13.0295L12.529 14.0894Z"
+                          fill="#91D1B9" />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg width="30" height="25" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M29.1801 3.02212C28.1441 3.53139 26.9989 3.81431 25.7993 3.98406C26.9989 3.24845 27.9258 2.06017 28.3622 0.64555C27.2715 1.32457 26.0174 1.83383 24.6542 2.11675C23.5637 0.928475 22.0913 0.192871 20.401 0.192871C17.1838 0.192871 14.5664 2.90895 14.5664 6.24745C14.5664 6.70012 14.6209 7.20939 14.73 7.60548C9.82243 7.37915 5.51466 5.00258 2.62465 1.32457C2.13389 2.17334 1.86125 3.24844 1.86125 4.38015C1.86125 6.4738 2.89728 8.3411 4.47861 9.41621C3.49711 9.35961 2.62465 9.13329 1.80672 8.68059V8.73718C1.80672 11.6796 3.82428 14.1128 6.49618 14.6786C6.00542 14.7918 5.51466 14.9049 4.96937 14.9049C4.58768 14.9049 4.20597 14.8483 3.8788 14.7918C4.6422 17.2249 6.76882 18.979 9.33167 18.979C7.3141 20.62 4.8058 21.5818 2.07936 21.5818C1.58861 21.5818 1.15238 21.5818 0.661621 21.5253C3.22447 23.2229 6.3326 24.2415 9.60431 24.2415C20.401 24.2415 26.2901 14.9615 26.2901 6.98304C26.2901 6.70012 26.2901 6.4738 26.2901 6.19085C27.3806 5.34209 28.3622 4.26698 29.1801 3.02212Z"
+                          fill="#6D7772" />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M20.2386 20.1143H18.7404L18.7474 19.2441C18.7474 18.8573 19.065 18.541 19.4529 18.541H19.5485C19.9374 18.541 20.2559 18.8573 20.2559 19.2441L20.2386 20.1143ZM14.6191 18.2495C14.239 18.2495 13.9281 18.5049 13.9281 18.8176V23.05C13.9281 23.3621 14.239 23.6169 14.6191 23.6169C15.0007 23.6169 15.3119 23.3621 15.3119 23.05V18.8176C15.3119 18.5046 15.0007 18.2495 14.6191 18.2495ZM23.7454 15.882V23.9336C23.7454 25.8649 22.0707 27.4452 20.0235 27.4452H4.71777C2.66999 27.4452 0.995605 25.8649 0.995605 23.9336V15.882C0.995605 13.9507 2.66999 12.37 4.71777 12.37H20.0235C22.0707 12.37 23.7454 13.9507 23.7454 15.882ZM5.73878 24.8078L5.73756 16.3263L7.63489 16.327V15.0703L2.57717 15.0627V16.2981L4.156 16.3027V24.8078H5.73878ZM11.4262 17.5897H9.84435V22.1187C9.84435 22.7739 9.88409 23.1015 9.84192 23.2171C9.71331 23.5683 9.13516 23.9414 8.90979 23.255C8.87157 23.1349 8.90524 22.7724 8.90463 22.15L8.89826 17.5897H7.32519L7.33005 22.0784C7.33126 22.7663 7.31458 23.2793 7.33551 23.5128C7.37403 23.9245 7.36038 24.4043 7.74227 24.6785C8.45389 25.1912 9.81796 24.6021 10.1592 23.8693L10.1562 24.8044L11.4265 24.8059L11.4262 17.5897ZM16.4867 22.7761L16.4833 19.0066C16.4821 17.57 15.4074 16.7098 13.9487 17.8721L13.9551 15.0696L12.375 15.0721L12.3674 24.7453L13.6669 24.7265L13.7852 24.1241C15.4453 25.6471 16.4891 24.6033 16.4867 22.7761ZM21.4373 22.2765L20.2513 22.2828C20.2507 22.3299 20.2489 22.3841 20.2483 22.4433V23.1052C20.2483 23.4595 19.9556 23.7479 19.6001 23.7479H19.3677C19.0116 23.7479 18.7189 23.4595 18.7189 23.1052V23.0318V22.3038V21.3644H21.4349V20.3421C21.4349 19.595 21.4158 18.8482 21.3539 18.4211C21.1595 17.0701 19.2631 16.8557 18.3051 17.5472C18.0045 17.7632 17.7749 18.0523 17.6414 18.4406C17.5068 18.8291 17.4397 19.3599 17.4397 20.0343V22.2819C17.4403 26.0183 21.9788 25.4902 21.4373 22.2765ZM15.3531 10.0741C15.4347 10.2725 15.5615 10.4332 15.7335 10.5546C15.9034 10.6741 16.1206 10.7342 16.3808 10.7342C16.6089 10.7342 16.8109 10.6726 16.9869 10.5455C17.1622 10.419 17.3099 10.23 17.4306 9.97795L17.4006 10.5986H19.1639V3.09994H17.7758V8.93601C17.7758 9.25208 17.5156 9.51082 17.1974 9.51082C16.881 9.51082 16.6198 9.25208 16.6198 8.93601V3.09994H15.1711V8.15767C15.1711 8.80194 15.183 9.23146 15.2021 9.44925C15.2218 9.66552 15.2715 9.873 15.3531 10.0741ZM10.0097 5.83901C10.0097 5.11921 10.0697 4.55714 10.1889 4.15189C10.3091 3.74816 10.5247 3.4236 10.8371 3.17881C11.1487 2.93281 11.5475 2.80966 12.0326 2.80966C12.4406 2.80966 12.79 2.88973 13.0818 3.04656C13.3751 3.20429 13.6014 3.40904 13.7582 3.66171C13.9181 3.91529 14.0267 4.17585 14.0846 4.44248C14.1438 4.71275 14.1729 5.12042 14.1729 5.67036V7.56678C14.1729 8.26232 14.145 8.77403 14.0907 9.0989C14.037 9.42468 13.9217 9.72679 13.7431 10.0101C13.5671 10.2904 13.3399 10.5 13.0645 10.6337C12.786 10.7687 12.4675 10.8349 12.1078 10.8349C11.7059 10.8349 11.3674 10.7793 11.0883 10.6635C10.8083 10.5482 10.5921 10.3744 10.438 10.1436C10.2824 9.91243 10.1729 9.63094 10.1067 9.30274C10.0403 8.97484 10.0088 8.48162 10.0088 7.82431L10.0097 5.83901ZM11.3907 8.81771C11.3907 9.24238 11.7068 9.58908 12.0917 9.58908C12.477 9.58908 12.7918 9.24238 12.7918 8.81771V4.82589C12.7918 4.40183 12.477 4.05513 12.0917 4.05513C11.7068 4.05513 11.3907 4.40183 11.3907 4.82589V8.81771ZM6.51075 10.8333H8.17421L8.17603 5.0822L10.1416 0.155518H8.32224L7.27727 3.81489L6.21743 0.145508H4.41687L6.50802 5.08493L6.51075 10.8333Z"
+                          fill="#6D7772" />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clipPath="url(#clip0)">
+                          <path
+                            d="M17.9756 0.145508H8.25011C3.77475 0.145508 0.145508 3.77475 0.145508 8.25011V17.9756C0.145508 22.451 3.77475 26.0802 8.25011 26.0802H17.9756C22.451 26.0802 26.0802 22.451 26.0802 17.9756V8.25011C26.0802 3.77475 22.451 0.145508 17.9756 0.145508ZM23.6488 17.9756C23.6488 21.104 21.104 23.6488 17.9756 23.6488H8.25011C5.12173 23.6488 2.57689 21.104 2.57689 17.9756V8.25011C2.57689 5.12173 5.12173 2.57689 8.25011 2.57689H17.9756C21.104 2.57689 23.6488 5.12173 23.6488 8.25011V17.9756Z"
+                            fill="#6D7772" />
+                          <path
+                            d="M13.1131 6.62939C9.53246 6.62939 6.62939 9.53246 6.62939 13.1131C6.62939 16.6937 9.53246 19.5968 13.1131 19.5968C16.6937 19.5968 19.5968 16.6937 19.5968 13.1131C19.5968 9.53246 16.6937 6.62939 13.1131 6.62939ZM13.1131 17.1654C10.8794 17.1654 9.06077 15.3467 9.06077 13.1131C9.06077 10.8778 10.8794 9.06077 13.1131 9.06077C15.3467 9.06077 17.1654 10.8778 17.1654 13.1131C17.1654 15.3467 15.3467 17.1654 13.1131 17.1654Z"
+                            fill="#6D7772" />
+                          <path
+                            d="M20.0827 7.00671C20.5598 7.00671 20.9467 6.6199 20.9467 6.14276C20.9467 5.66561 20.5598 5.27881 20.0827 5.27881C19.6056 5.27881 19.2188 5.66561 19.2188 6.14276C19.2188 6.6199 19.6056 7.00671 20.0827 7.00671Z"
+                            fill="#6D7772" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0">
+                            <rect width="25.9347" height="25.9347" fill="white"
+                              transform="translate(0.145508 0.145508)" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </div>
+                  <p class="footer_copy">&copy;2018 BeerootAcademy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

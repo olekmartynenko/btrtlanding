@@ -1,0 +1,21 @@
+.registration {
+
+    @include e(title) {
+        font-size: 48px;
+        line-height: 77px;
+    }
+
+    @include e(btn) {
+        font-size: 24px;
+        padding: 12px 42.5px;
+        width: 143px;
+        align-self: center;
+        line-height: 36px;
+        color: #FF6D54;
+        border: 1px solid #FF6D54;
+        box-sizing: border-box;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+
+}

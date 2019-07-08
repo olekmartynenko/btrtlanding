@@ -1,0 +1,22 @@
+.bonus {
+    margin-bottom: 188px;
+
+    @include e(h3) {
+        padding-top: 56px;
+        padding-left: 50px;
+
+    }
+
+    @include e(img) {
+        max-width: 792px;
+        margin-left: 39px;
+    }
+
+    @include e(text) {
+        padding-left: 100px;
+
+        @include m(ul) {
+            padding-left: 115px;
+        }
+    }
+}

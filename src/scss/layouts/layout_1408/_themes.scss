@@ -1,0 +1,21 @@
+.themes {
+    margin-top: 210px;
+    grid-template-columns: 450px 450px;
+    grid-column-gap: 345px;
+    margin-bottom: 256px;
+    justify-content: center;
+    background-position: right 250px bottom 0,
+        left 250px top 50px,
+        right 350px top 10px;
+    background-size: 320px,
+        490px,
+        170px;
+
+    @include e(title) {
+        margin-bottom: 10px;
+    }
+
+    @include e(desc) {
+        margin-top: 16px;
+    }
+}

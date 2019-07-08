@@ -1,0 +1,36 @@
+.local {
+
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+
+    @include e(img) {
+        margin: auto;
+        margin-bottom: 0;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        background: url(#{$imagesPath}Julie.png) no-repeat;
+
+        >img {
+            width: 66px;
+            height: 66px;
+            margin: 110px 0 0 60px;
+        }
+    }
+
+    @include e(icon) {
+        display: none;
+
+    }
+
+    @include e(contact) {
+        color: #505052;
+    }
+
+    @include e(name) {
+        margin: 10px 0;
+    }
+}

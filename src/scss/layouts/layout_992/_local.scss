@@ -1,0 +1,29 @@
+.local {
+    justify-content: center;
+
+
+
+    @include e(photo) {
+        margin-right: 40px;
+
+        &::after {
+            width: 286px;
+            height: 286px;
+            border: 90px solid #F9F5EC;
+        }
+    }
+
+    @include e(contact) {
+        padding-top: 50px;
+    }
+
+    @include e(icon) {
+        left: 50px;
+        bottom: 20px;
+
+        >img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+}

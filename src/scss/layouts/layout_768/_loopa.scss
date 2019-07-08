@@ -1,0 +1,32 @@
+.loopa {
+    @include e(content) {
+        display: block;
+        text-align: left;
+        margin-bottom: 100px;
+    }
+
+    @include e(h3) {
+        text-align: left;
+        margin-bottom: 16px;
+        padding: 19px 10px 0;
+    }
+
+    @include e(auth) {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    @include e(img) {
+        img {
+            float: left;
+            margin-right: 20px;
+        }
+    }
+
+    @include e(text) {
+        box-sizing: border-box;
+        margin-top: 0;
+        padding: 30px 10px 20px;
+        min-height: 343px;
+    }
+}

@@ -1,0 +1,59 @@
+.faq {
+    margin-bottom: 60px;
+
+    @include e(title) {
+        text-align: center;
+    }
+
+    @include e(box) {
+        padding: 0 15px;
+    }
+
+    @include e(text) {
+        display: flex;
+        font-size: 14px;
+        line-height: 22px;
+        color: #505052;
+        align-items: center;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 30px;
+    }
+
+    @include e(btn) {
+        span {
+            display: block;
+            height: 2px;
+            width: 30px;
+            background: #FF6D54;
+        }
+
+        .line2 {
+            transform: rotate(90deg) translateX(-2px);
+
+            @include m(active) {
+
+                display: none;
+
+            }
+        }
+    }
+
+    @include e(content) {
+        font-size: 14px;
+        line-height: 22px;
+        color: #505052;
+        display: none;
+        border-bottom: 1px solid #e5e5e5;
+        background: #FDFCFA;
+        padding-bottom: 20px;
+
+    }
+}
+
+.active {
+    border-bottom: none;
+}
+
+.active+.faq__content {
+    display: block;
+}

@@ -1,0 +1,14 @@
+.loopa {
+    margin-left: 338px;
+    margin-bottom: 107px;
+
+    @include e(h3) {
+        margin-bottom: 0;
+    }
+
+    @include e(text) {
+        padding: 42px 330px 44px 0;
+    }
+
+
+}

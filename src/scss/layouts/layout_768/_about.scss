@@ -1,0 +1,10 @@
+.about {
+
+
+    @include e(text) {
+        text-align: left;
+        padding: 0 20px;
+    }
+
+
+}

@@ -1,0 +1,38 @@
+.requirement {
+
+    @include e(box) {
+        margin-left: 333px;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        padding-left: 62px;
+        padding-top: 0;
+        position: relative;
+    }
+
+    @include e(title) {
+        margin-top: 38px;
+        margin-bottom: 20px;
+    }
+
+    @include e(text) {
+        margin-bottom: 19px;
+
+        &:last-of-type {
+            margin-top: 19px;
+            margin-bottom: 28px;
+        }
+    }
+
+    @include e(content) {
+        margin-right: 48px;
+        max-width: 694px;
+    }
+
+    @include e(img) {
+        position: absolute;
+        right: 0;
+        top: 22px;
+
+    }
+}

@@ -1,0 +1,35 @@
+.faq {
+    margin-left: 343px;
+    margin-bottom: 143px;
+    margin-left: 337px;
+
+
+    @include e(title) {
+        text-align: left;
+        margin: 0;
+        margin-bottom: 48px;
+
+    }
+
+    @include e(text) {
+        max-width: 1057px;
+        justify-content: space-between;
+        margin: 0;
+        padding: 20px 0;
+
+
+        >p {
+            max-width: 848px;
+            margin: 0;
+        }
+
+    }
+
+    @include e(content) {
+        margin-left: 337px;
+        max-width: 848px;
+        margin: 0;
+        margin-bottom: 24px;
+
+    }
+}

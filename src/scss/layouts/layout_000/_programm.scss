@@ -1,0 +1,35 @@
+.programm {
+    @include e(grid) {
+        text-align: center;
+        padding: 0 50px;
+        margin-bottom: 100px;
+    }
+
+    @include e(num) {
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 91px;
+        color: #FF6D54;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            height: 2px;
+            width: 200px;
+            background: #ff6d54;
+            bottom: -4px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+    }
+
+    @include e(desc) {
+        margin-top: 30px;
+    }
+
+    @include e(img) {
+        display: none;
+    }
+}

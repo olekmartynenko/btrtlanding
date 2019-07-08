@@ -1,0 +1,68 @@
+.basis {
+    display: flex;
+    padding: 0 10px;
+
+    @include e(content) {
+        text-align: justify;
+    }
+
+    @include e(heading) {
+        margin-bottom: 33.5px;
+    }
+
+    @include e(text) {
+        margin-bottom: 30px;
+    }
+
+    @include e(info) {
+        font-weight: $mediumFontWeight;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FF6D54;
+        margin-bottom: 42px;
+    }
+
+    @include e(el) {
+        margin-right: 10px;
+
+        &:first-of-type {
+            display: block;
+        }
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+
+    @include e(reg) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+
+    @include e(select) {
+        outline: none;
+        font-size: 18px;
+        line-height: 26px;
+        color: #505052;
+        border-bottom: 1px solid #C4C4C4;
+        padding-right: 80px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    @include e(btn) {
+        text-decoration: none;
+        outline: none;
+        border: 1px solid #FF6D54;
+        border-radius: 40px;
+        padding: 10px 30px;
+    }
+
+    @include e(img) {
+        display: none;
+    }
+
+}

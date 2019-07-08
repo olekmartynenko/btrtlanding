@@ -1,0 +1,33 @@
+.basis {
+    padding-left: 40px;
+    padding-right: 0;
+
+    @include e(content) {
+        text-align: left;
+        max-width: 640px;
+    }
+
+    @include e(reg) {
+        margin-bottom: 190px;
+    }
+
+    @include e(img) {
+        display: block;
+
+        img {
+
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+
+    @include e(btn) {
+        transition: background .3s ease;
+
+        &:hover {
+            background: #FF6D54;
+            color: #fff;
+        }
+    }
+}

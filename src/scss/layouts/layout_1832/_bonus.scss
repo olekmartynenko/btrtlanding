@@ -1,0 +1,19 @@
+.bonus {
+    @include e(content) {
+        padding-left: 336px;
+    }
+
+    @include e(h3) {
+        padding-left: 0;
+    }
+
+    @include e(text) {
+        padding-left: 4px;
+        padding-right: 933px;
+
+        @include m(ul) {
+            padding-left: 10px;
+            margin-bottom: 18px;
+        }
+    }
+}

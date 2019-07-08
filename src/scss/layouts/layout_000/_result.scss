@@ -1,0 +1,34 @@
+.result {
+    margin-bottom: 40px;
+
+    @include e(block) {
+        background: #FFEFED;
+        padding: 0 15px;
+    }
+
+    @include e(title) {
+        text-align: center;
+        padding: 20px;
+    }
+
+    @include e(text) {
+        list-style: none;
+        padding-bottom: 20px;
+        margin-bottom: 0;
+        margin-left: 40px;
+
+
+        li {
+
+            &::before {
+                content: "-";
+                position: relative;
+                left: -15px;
+            }
+        }
+    }
+
+    @include e(img) {
+        display: none;
+    }
+}

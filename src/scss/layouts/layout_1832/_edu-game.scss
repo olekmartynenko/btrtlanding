@@ -1,0 +1,33 @@
+.edu-game {
+
+    margin-bottom: 194px;
+
+    @include e(content) {
+        display: block;
+        text-align: left;
+    }
+
+    @include e(h3) {
+        padding-left: 337px;
+        padding-bottom: 9px;
+    }
+
+    @include e(auth) {
+        padding-left: 337px;
+        margin-top: 0;
+        margin-bottom: 14px;
+        padding-top: 0;
+    }
+
+    @include e(text) {
+        margin-top: 0;
+        padding-top: 20px;
+        padding-left: 337px;
+        min-height: 334px;
+
+    }
+
+    @include e(img) {
+        margin-top: 32px;
+    }
+}

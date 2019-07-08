@@ -1,0 +1,20 @@
+.requirement {
+    margin-bottom: 90px;
+
+    @include e(title) {
+
+        text-align: left;
+    }
+
+    @include e(box) {
+        display: flex;
+        text-align: left;
+        align-items: center;
+        padding: 25px 30px;
+    }
+
+    @include e(img) {
+
+        display: block;
+    }
+}

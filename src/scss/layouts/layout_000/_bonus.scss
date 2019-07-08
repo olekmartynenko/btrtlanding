@@ -1,0 +1,51 @@
+.bonus {
+    margin-bottom: 50px;
+
+    @include e(content) {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    @include e(h3) {
+        order: 0;
+        margin-bottom: 10px;
+        padding: 0 15px;
+    }
+
+
+    @include e(img) {
+        order: 1;
+
+        img {
+            max-width: 70%;
+            vertical-align: top;
+            float: right;
+        }
+
+    }
+
+    @include e(text) {
+        text-align: justify;
+        order: 2;
+        box-sizing: border-box;
+        margin-top: 0;
+        padding: 20px 15px;
+
+        @include m(ul) {
+            list-style: none;
+            padding-left: 40px;
+            padding-bottom: 0;
+            text-align: left;
+
+            li {
+
+                &::before {
+                    content: "-";
+                    position: relative;
+                    left: -15px;
+                }
+            }
+        }
+    }
+}

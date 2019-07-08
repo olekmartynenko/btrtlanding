@@ -1,0 +1,27 @@
+.local {
+
+    padding: 0 120px;
+    text-align: left;
+    margin-bottom: 70px;
+
+    @include e(photo) {
+
+        &::after {
+            width: 200px;
+            height: 200px;
+            border: 50px solid #F9F5EC;
+            left: -120px;
+            bottom: -50px;
+        }
+    }
+
+    @include e(icon) {
+        left: -20px;
+        bottom: -5px;
+
+        >img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}

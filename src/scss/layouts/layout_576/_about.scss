@@ -1,0 +1,13 @@
+.about {
+    margin-bottom: 50px;
+
+    @include e(btn) {
+
+        padding: 6px 25px;
+        border-radius: 30px;
+    }
+
+    @include e(email) {
+        width: 300px;
+    }
+}

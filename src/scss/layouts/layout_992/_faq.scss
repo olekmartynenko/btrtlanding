@@ -1,0 +1,23 @@
+.faq {
+
+
+    @include e(text) {
+        max-width: 848px;
+        justify-content: space-between;
+        margin: auto;
+
+        >p {
+            max-width: 848px;
+
+
+        }
+
+    }
+
+    @include e(content) {
+        max-width: 848px;
+        margin: auto;
+
+
+    }
+}

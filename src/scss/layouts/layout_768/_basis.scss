@@ -1,0 +1,9 @@
+.basis {
+    @include e(content) {
+        text-align: left;
+    }
+
+    @include e(reg) {
+        justify-content: flex-start;
+    }
+}

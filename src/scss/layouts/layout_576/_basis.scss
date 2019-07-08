@@ -1,0 +1,39 @@
+.basis {
+    padding: 0 40px;
+
+    @include e(text) {
+        margin-bottom: 53px;
+    }
+
+    @include e(info) {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    @include e(el) {
+        margin-right: 20px;
+    }
+
+    @include e(reg) {
+        flex-direction: row;
+    }
+
+    @include e(select) {
+        margin-bottom: 0;
+    }
+
+    @include e(arrow) {
+        background: url(#{$imagesPath}arrowDown.svg) no-repeat;
+        display: block;
+        width: 8px;
+        height: 8px;
+        margin-left: -8px;
+        margin-right: 40px;
+
+
+    }
+
+    @include e(btn) {
+        padding: 12px 50px;
+    }
+}

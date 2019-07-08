@@ -1,0 +1,11 @@
+.partners {
+  @include e(title) {
+    padding: 0 480px;
+  }
+
+  @include e(company) {
+    grid-template-columns: 285px 235px 285px 104px 285px;
+    margin: 0 auto;
+
+  }
+}

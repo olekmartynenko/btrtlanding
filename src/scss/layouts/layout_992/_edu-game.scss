@@ -1,0 +1,17 @@
+.edu-game {
+
+
+    @include e(h3) {
+        padding-left: 100px;
+
+    }
+
+    @include e(auth) {
+        padding-left: 100px;
+
+    }
+
+    @include e(text) {
+        padding-left: 100px;
+    }
+}

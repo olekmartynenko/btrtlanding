@@ -1,0 +1,28 @@
+.bonus {
+    @include e(content) {
+        display: block;
+        text-align: left;
+        margin-bottom: 100px;
+    }
+
+    @include e(h3) {
+        padding-left: 100px;
+
+    }
+
+    @include e(img) {
+        max-width: 411px;
+        float: right;
+        margin-left: 20px;
+
+        img {
+            max-width: 100%;
+            vertical-align: top;
+
+        }
+    }
+
+    @include e(text) {
+        padding-left: 100px;
+    }
+}

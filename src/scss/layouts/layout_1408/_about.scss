@@ -1,0 +1,17 @@
+.about {
+
+  margin-left: 337px;
+
+  @include e(text) {
+    padding: 0 200px 0 157px;
+    margin-bottom: 90px;
+  }
+
+  @include e(form) {
+    margin-bottom: 108px;
+  }
+
+  @include e(email) {
+    width: 380px;
+  }
+}

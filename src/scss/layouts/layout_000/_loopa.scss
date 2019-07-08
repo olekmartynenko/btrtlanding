@@ -1,0 +1,33 @@
+.loopa {
+    @include e(content) {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+
+    }
+
+    @include e(h3) {
+        order: -1;
+        padding: 15px;
+        text-align: center;
+    }
+
+    @include e(auth) {
+        order: -1;
+        padding: 15px;
+    }
+
+    @include e(img) {
+        img {
+            max-width: 100%;
+            vertical-align: top;
+        }
+
+    }
+
+    @include e(text) {
+        margin-top: 0;
+        padding: 30px 15px;
+        background: #F9F5EC;
+    }
+}

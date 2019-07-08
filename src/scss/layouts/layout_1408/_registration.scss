@@ -1,0 +1,42 @@
+.registration {
+    margin-left: 337px;
+    padding-right: 0;
+
+    @include e(box) {
+        position: relative;
+        padding-top: 43px;
+    }
+
+    @include e(one) {
+
+        margin-bottom: 24px;
+
+        >input {
+            margin-right: 50px;
+        }
+    }
+
+    @include e(two) {
+        margin-bottom: 37px;
+
+        >input {
+            margin-right: 50px;
+
+
+        }
+
+
+    }
+
+    @include e(img) {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+    }
+
+    @include e(btn) {
+
+        margin-bottom: 50px;
+    }
+}

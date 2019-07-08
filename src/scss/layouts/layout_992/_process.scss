@@ -1,0 +1,29 @@
+.process {
+    padding: 0;
+    margin-bottom: 180px;
+
+    @include e(title) {
+        margin-bottom: 121px;
+    }
+
+    @include e(box) {
+        max-width: 628px;
+        margin: auto;
+    }
+
+    @include e(item) {
+
+
+
+        @include m(call) {
+
+
+            &::before {
+
+                width: 500px;
+
+            }
+
+        }
+    }
+}

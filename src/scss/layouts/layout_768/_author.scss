@@ -1,0 +1,10 @@
+.author {
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+
+    @include e(anton) {
+        margin-right: 50px;
+    }
+}

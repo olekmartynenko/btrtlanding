@@ -1,0 +1,17 @@
+.loopa {
+    margin-left: 200px;
+
+    margin-bottom: 125px;
+
+
+    @include e(img) {
+        img {
+            margin-right: 62px;
+        }
+    }
+
+    @include e(text) {
+        padding: 46px 40px 10px 0;
+        // min-height: 352px;
+    }
+}

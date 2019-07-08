@@ -1,0 +1,16 @@
+.basis {
+    padding: 0 30px;
+
+    @include e(content) {
+        text-align: center;
+
+    }
+
+    @include e(el) {
+        margin-right: 10px;
+
+        &:first-of-type {
+            display: inline;
+        }
+    }
+}

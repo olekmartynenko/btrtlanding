@@ -1,0 +1,22 @@
+.programm {
+    position: relative;
+
+    @include e(grid) {
+
+        grid-template-columns: 270px 270px;
+        grid-column-gap: 70px;
+        justify-content: flex-start;
+
+    }
+
+    @include e(img) {
+        display: block;
+        right: 0;
+        top: -25px;
+        position: absolute;
+
+        img {
+            max-width: 400px;
+        }
+    }
+}

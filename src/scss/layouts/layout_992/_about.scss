@@ -1,0 +1,58 @@
+.about {
+    margin-bottom: 70px;
+    margin-left: 120px;
+
+
+    @include e(img) {
+        display: block;
+        position: absolute;
+        top: 47px;
+        left: -138px
+    }
+
+    @include e(h2) {
+        padding: 29px 158px 10px;
+        text-align: left;
+        margin-bottom: 28px;
+    }
+
+    @include e(text) {
+        padding: 0 100px 0 159px;
+        text-align: left;
+    }
+
+    @include e(dl-title) {
+        flex-direction: row;
+        margin-left: 36px;
+        align-items: center;
+    }
+
+    @include e(dl-img) {
+        margin-right: 55px;
+    }
+
+    @include e(form) {
+        flex-direction: row;
+        margin-left: 157px;
+        margin-bottom: 108px;
+        justify-content: flex-start;
+
+    }
+
+    @include e(email) {
+        margin-right: 30px;
+        width: 310px;
+        margin-bottom: 0;
+        height: 47px;
+    }
+
+    @include e(btn) {
+        cursor: pointer;
+        transition: background .3s;
+
+        &:hover {
+            background: #FF6D54;
+            color: #fff;
+        }
+    }
+}

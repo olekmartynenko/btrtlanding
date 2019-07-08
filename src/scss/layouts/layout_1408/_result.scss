@@ -1,0 +1,26 @@
+.result {
+    margin: 0 120px;
+
+    @include e(block) {
+
+        margin: auto;
+    }
+
+    @include e(content) {
+        margin-left: 500px;
+    }
+
+    position: relative;
+    padding: 10px 0;
+    margin-bottom: 210px;
+
+
+
+    @include e(img) {
+        left: -20px;
+
+        img {
+            max-width: 510px;
+        }
+    }
+}

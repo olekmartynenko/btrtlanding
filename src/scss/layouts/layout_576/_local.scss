@@ -1,0 +1,42 @@
+.local {
+
+    padding: 0 40px;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @include e(photo) {
+        position: relative;
+
+        &::after {
+            content: '';
+            z-index: -1;
+            box-sizing: border-box;
+            position: absolute;
+            display: block;
+            width: 160px;
+            height: 160px;
+            border-radius: 100%;
+            border: 40px solid #F9F5EC;
+            left: 120px;
+            bottom: 50px;
+        }
+    }
+
+    @include e(img) {
+        >img {
+            display: none;
+        }
+    }
+
+    @include e(icon) {
+        display: block;
+        position: absolute;
+        left: 120px;
+        bottom: 35px;
+
+        >img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}

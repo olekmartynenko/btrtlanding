@@ -1,0 +1,76 @@
+.partners {
+
+    @include e(title) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 15px;
+        margin-bottom: 50px;
+
+    }
+
+    @include e (h2) {
+        margin-bottom: 10px;
+    }
+
+
+
+    @include e(company) {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: justify;
+        margin-bottom: 20px;
+        justify-content: center;
+        padding: 0 50px;
+        grid-template-areas: 'im1'
+            't1'
+            'im2'
+            't2'
+            'im3'
+            't3'
+        ;
+    }
+
+    @include e(img) {
+        img {
+            max-width: 100%;
+
+        }
+    }
+
+    @include e(co-text) {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 40px;
+
+        @include m(chalm) {
+            grid-area: t1;
+        }
+
+        @include m(avp) {
+            grid-area: t2;
+        }
+
+        @include m(driv) {
+            grid-area: t3;
+        }
+    }
+
+    @include e(img) {
+        align-self: center;
+
+        @include m(chalm) {
+            grid-area: im1;
+        }
+
+        @include m(avp) {
+            grid-area: im2;
+        }
+
+        @include m(driv) {
+            grid-area: im3;
+        }
+    }
+
+
+}

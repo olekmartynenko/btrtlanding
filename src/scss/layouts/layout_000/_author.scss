@@ -1,0 +1,23 @@
+.author {
+    display: flex;
+    padding: 0 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+    @include e(role) {
+        padding: 15px 0;
+    }
+
+    @include e(text) {
+        max-width: 420px;
+    }
+
+    @include e(img) {
+        img {
+            max-width: 100%;
+            vertical-align: top;
+        }
+    }
+}

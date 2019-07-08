@@ -1,0 +1,8 @@
+.faq {
+    @include e(text) {
+
+        p {
+            margin-right: 40px;
+        }
+    }
+}
